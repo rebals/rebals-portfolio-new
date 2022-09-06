@@ -1,3 +1,22 @@
+body {
+    font-size: 'lato', sans-serif;
+    font-size: 16px;
+    color: #8ef9f3;
+    background-color: #637074;
+}
+
+ul, 
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #8ef9f3;
+  text-decoration: none;
+}
+
 /*****Repo Gallery*****/
 * {
     box-sizing: border-box;
