@@ -54,6 +54,106 @@ figure{
     width: 90%;
     margin: 0 auto;
 }
+
+/***** Header - Footer *****/
+
+header, footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: row wrap;
+   background-color: #080708;
+}
+
+header .content-wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: row wrap;
+   margin: 0;
+} 
+
+header {
+   padding: 20px 0;
+}
+
+header h2 {
+   font-size: 2em;
+   font-weight: 900;
+   margin: 0;
+   padding: 10px 0;
+ }
+ 
+ header nav {
+
+ }
+ 
+ header nav ul {
+   
+ }
+ 
+ header nav a {
+   padding: 0 10px;
+ }
+ 
+ .navbar a:hover {
+   color: #d4cdf4;
+   border-radius: 25px;
+   background: #637074;
+   padding: 10px;
+   width: 200px;
+   height: 150px;
+ }
+ 
+ footer .content-wrapper {
+   margin: 0;  
+ }
+ 
+ footer{
+   text-align: center;
+   flex-direction: column;
+   padding: 30px 0 60px 0;
+ }
+ 
+ footer h2 {
+   padding: 40px 0;
+ }
+ 
+ footer p {
+   margin: 0;
+ }
+ 
+ footer .contact-info i {
+   font-size: 2em;
+   padding: 0 15px 10px 0;
+ }
+ 
+ footer .social-icons i {
+   font-size: 2.25em;
+   color: #a2e8dd;
+   padding: 0 20px;
+ }
+ 
+ footer .social-icons {
+   display: flex;
+   justify-content: center;
+   width: 40px;
+   height: 40px;
+   width: 100%;
+ }
+ 
+ .social {
+   padding-top: 25px;
+ }
+ 
+ .contact-info {
+   padding-top: 40px;
+ }
+ 
+ .copyright {
+   margin-top: 80px;
+   font-weight: 500;
+ }
   
 /*****Repo Gallery*****/
 * {
