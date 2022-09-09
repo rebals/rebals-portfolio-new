@@ -65,63 +65,39 @@ header, footer {
    background-color: #080708;
 }
 
-header .content-wrapper {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-flow: row wrap;
-   margin: 0;
-} 
-
-header {
-   padding: 20px 0;
+.nav-bar h2 {
+   font-size: 1.5em;
 }
-
-header h2 {
-   font-size: 2em;
-   font-weight: 900;
-   margin: 0;
-   padding: 10px 0;
- }
- 
- header nav {
-
- }
- 
- header nav ul {
-   
- }
-
- header .content-wrapper {
+.nav-bar {
    overflow: hidden;
    background-color: #333;
    position: relative;
- }
-
- header .content-wrapper, .nav-bar {
+}
+ 
+.nav-menu {
    display: none;
- }
+}
  
- .nav-bar a {
-   padding: 0 10px;
- }
-
- header .content-wrapper   a {
-   color: white;
-   padding: 14px 16px;
-   text-decoration: none;
-   font-size: 17px;
+.nav-bar a {
+   
+}
+ 
+.nav-bar a.icon {
+   background: black;
    display: block;
- }
+   position: absolute;
+   right: 0;
+   top: 0;
+}
  
- .nav-bar a:hover {
+.nav-menu a:hover {
    color: #d4cdf4;
    border-radius: 25px;
    background: #637074;
    padding: 10px;
    width: 200px;
    height: 150px;
- }
+}
  
  footer .content-wrapper {
    margin: 0;  
