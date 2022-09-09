@@ -154,6 +154,7 @@ Homepage Page
 .hero-area {
    display: flex;
    justify-content: center;
+   align-items: center;
    flex-flow: row wrap;
    background: url("../img/hero-image.jpg");
    background-size: cover;
@@ -162,20 +163,15 @@ Homepage Page
 }
  
 .hero-area h1 {
-   font-size:  3.4em;  
+   font-size:  3.25em;  
    line-height: 1.2;
    font-weight: 800;
-   text-shadow: 2px 2px #080708;
-   padding: ;    
+   text-shadow: 2px 2px #080708;  
 }
  
 .hero-area p {
    font-size: .4em;
    padding-top: 10px;
-}
- 
-.hero-area a {
-   color: ;
 }
  
 
