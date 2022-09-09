@@ -145,8 +145,43 @@ footer .social-icons {
    margin-top: 80px;
    font-weight: 500;
 }
-  
-/*****Repo Gallery*****/
+
+/*========================
+Homepage Page
+=========================*/
+
+/*** Hero Area ***/
+.hero-area {
+   display: flex;
+   justify-content: center;
+   flex-flow: row wrap;
+   background: url("../img/hero-image.jpg");
+   background-size: cover;
+   background-position: center;
+   min-height: 300px;
+}
+ 
+.hero-area h1 {
+   font-size:  3.4em;  
+   line-height: 1.2;
+   font-weight: 800;
+   text-shadow: 2px 2px #080708;
+   padding: ;    
+}
+ 
+.hero-area p {
+   font-size: .4em;
+   padding-top: 10px;
+}
+ 
+.hero-area a {
+   color: ;
+}
+ 
+
+/*===========================
+Repo Gallery
+===========================*/
 * {
     box-sizing: border-box;
 }
