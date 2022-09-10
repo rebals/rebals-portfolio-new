@@ -63,8 +63,8 @@ header, footer {
 }
 
 .nav-bar h2 {
-   font-size: 1.5em;
-   padding: 5px 10px;
+   font-size: 1.35em;
+   padding: 5px 15px;
 }
 .nav-bar {
    display: flex;
@@ -81,7 +81,7 @@ header, footer {
  
 .fas {
    font-size: 1.5em;
-   padding: 8px 0;   
+   padding: 6px 0;   
 }
  
 .nav-bar a.icon {
@@ -221,6 +221,83 @@ Homepage Page
    line-height: .5;   
 }
 
+/** Skills **/
+
+#skills {
+   background-color: #d4cdf4;
+   color: #080708;
+}
+
+#skills .content-wrapper {    
+   width: 100%;    
+}
+ 
+#skills img {
+   width: 100%;
+}
+
+#skills h2 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 40px 0 40px 0;
+   color: #080708;
+}
+
+#skills ol {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: column;
+   line-height: 1.5;
+   padding: 0;
+}
+  
+#skills ol li {
+   font-size: 1.5em;
+}
+
+.skills-icon { 
+   display: flex;
+   justify-content: space-between;
+   align-content: space-between;
+   flex-flow: row wrap;
+   width: 100%;
+   padding: 30px 90px;
+   font-size: 5em;
+}
+
+.skills-icon i{
+   padding: 10px;
+}
+
+.skills {
+   padding: 60px 0;
+}
+
+.tools  h4{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.75em;
+   padding: 0;
+}
+
+.tools {
+   padding-bottom: 60px;
+}
+.image {
+   width: 100%;
+   position: relative;
+}
+.image p {
+   position: absolute;
+   font-size: .8em;
+   color: #8ef9f3;
+   text-shadow: 1px 1px #080708;
+   top: 8px;
+   left: 16px;
+ }
 /*===========================
 Repo Gallery
 ===========================*/
