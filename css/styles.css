@@ -288,6 +288,7 @@ Homepage Page
 }
 .image {
    width: 100%;
+   
    position: relative;
 }
 .image p {
@@ -364,7 +365,7 @@ Homepage Page
    max-width: 700px;
    text-align: center;
    color: #ccc;
-   padding: 10px 0;
+   padding: 1px 0;
    height: 150px;
 }
  
@@ -401,6 +402,111 @@ Homepage Page
    width: 100%;
 }
 
+/*===========================
+Project page
+===========================*/
+
+/****** PROJECTS ******/
+
+.portfolio {
+   
+ }
+ 
+ .portfolio .content-wrapper {
+   width: 85%;
+ }
+ 
+ .portfolio h2 {
+   display: flex;
+   justify-content: center;    
+   align-content: center;
+   padding: 60px 0;
+ }
+ 
+ .portfolio p {
+   padding: 0 60px 0 0;
+ }
+ 
+ .project-skills ol{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: start;
+   flex-flow: row wrap;
+   line-height: 1.5;
+   padding-bottom: 60px;
+ }
+ 
+ .project-skills ol li {
+   width: 50%;
+   font-size: 1.25em;
+ }
+ 
+ .portfolio-project {
+   background: #a2e8dd;
+ }
+ 
+ .portfolio figure {
+   padding: 80px 0 5px 0;
+   background: #5BC0BE;
+ }
+ 
+ .portfolio h3,
+ .project-skills,
+ .project-description {
+   padding: 0 25px;
+ }
+ 
+ .portfolio img:hover {
+   box-shadow: 0 0 2px 1px #152A3E;
+ }
+ 
+ .repo-gallery {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 50px;
+ }
+ 
+ .button {
+   display: inline-block;
+   border-radius: 8px;
+   background-color: #152A3E;
+   border: none;
+   color: #FFFFFF;
+   text-align: center;
+   font-size: 1.25rem;
+   padding: 20px;
+   width: 200px;
+   transition: all 0.5s;
+   cursor: pointer;
+   margin: 9px;
+ }
+ 
+ .button span {
+   cursor: pointer;
+   display: inline-block;
+   position: relative;
+   transition: 0.5s;
+ }
+ 
+ .button span:after {
+   content: '\00bb';
+   position: absolute;
+   opacity: 0;
+   top: 0;
+   right: -20px;
+   transition: 0.5s;
+ }
+ 
+ .button:hover span {
+   padding-right: 25px;
+ }
+ 
+ .button:hover span:after {
+   opacity: 1;
+   right: 0;
+ }
 /*===========================
 Repo Gallery
 ===========================*/
@@ -671,8 +777,242 @@ section.repo-data {
 }
 /* ================== */
  /* 100% Image Width on Smaller Screens */
- @media only screen and (max-width: 700px){
-   .modal-content {
+
+
+ @media only screen and (min-width: 75em) {
+   /* Style adjustments for viewports that meet the condition */
+ 
+   /*Desktop styles here*/
+ 
+   /*Header-Footer-Hero*/
+   header .content-wrapper {
+     display: flex;
+     justify-content: space-between;
+     align-content: space-between;
+     flex-flow: row nowrap;
+   }
+ 
+   header {
+     padding: 20px 0;
+   }
+ 
+   header h1 {
+     font-size: 2em;
+   }
+ 
+   header nav {
+     width: 38%;
+     font-size: 1.15em;
+   }
+ 
+   footer {
+     padding: 15px;
+   }
+ 
+   footer .content-wrapper {
+     display: flex;
+     justify-content: space-between;
+     align-content: space-between;
+     flex-flow: row wrap;
+     width: 55%;
+   }
+ 
+   .contact-info {
+     padding-top: 60px;
+   }
+ 
+   footer h2 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     flex-flow: row;
+     font-size: 2.5em;
+   }
+ 
+   .copyright {
      width: 100%;
    }
- } 
+  
+   .hero-area {
+     min-height: 850px;
+   }
+ 
+   .hero-area h2 {
+     font-size: 6.5em;
+     text-shadow: 5px 5px #5BC0BE;
+   }
+ 
+   .hero-area p {
+     font-size: .55em;
+     padding-top: 500px;
+   }
+ 
+   /*Homepage*/
+ 
+   #about h2 {   
+     font-size: 2.5em;
+   }
+ 
+   #about .content-wrapper {
+     width: 90%;
+     display: flex;
+     justify-content: space-between;
+     align-content: space-between;
+     flex-flow: row;
+   }
+ 
+   #about h3 {
+     font-size: 1.75em;
+   }
+ 
+   #about h4 {
+     font-size: 1.5em;
+   }
+ 
+   #about p {
+     font-size: 1.3em;
+   }
+ 
+   .profile-title {
+     width: 35%;
+     padding: 40px 0px;
+   }
+ 
+   .profile-bio {
+     width: 60%;
+     padding: 40px;
+   }
+ 
+   .profile-title h3, h4 {
+     padding-left: 10px;
+   }
+ 
+   #skills .content-wrapper {
+     display: flex;
+     justify-content: space-between;
+     align-content: space-between;
+     flex-flow: row;
+     margin: 0;
+     padding: 0;
+   }
+ 
+   #skills ol {
+     padding: 0;
+   }
+   
+   #skills ol li {
+     font-size: 1em;
+   }
+ 
+   #skills h2 {
+     font-size: 2em;
+     padding: 0;
+     line-height: 2;
+   }
+ 
+   .skills-image {
+     width: 38%;
+     display: flex;
+     padding-right: 25px;
+   }
+ 
+   .skills-image p {
+     font-size: .5em;
+     bottom: 1.5px;
+   }
+ 
+   .tools-info  {
+     padding: 45px;
+     line-height: 1.2;
+   }
+ 
+   .skills-info {
+     padding: 45px 0;
+     line-height: 1.2;
+   }
+ 
+   .button{
+     width: 50%;
+     margin: 25px 0;
+   }
+   .certification {
+     padding: 42px 50px 50px 0;
+   }
+ 
+   #myImg {
+     padding-left: 0;
+   }
+
+   /*Certification Section*/
+   
+ 
+   /*Portfolio Page*/
+   .portfolio h2 {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row nowrap;       
+     font-size: 2.5em;
+   }
+ 
+   .portfolio .content-wrapper {
+     display: flex;
+     justify-content: space-between;
+     align-content: space-between;
+     flex-flow: row wrap;
+   } 
+ 
+  .portfolio article {
+     width: 45%;
+     display: flex;   
+   }
+ 
+   .portfolio h3 {
+     font-size: 1.75em;
+   }
+ 
+   .portfolio h4 {
+     font-size: 1.5em;
+   }
+ 
+   .portfolio p {
+     font-size: 1.3em;
+   }
+ 
+   .portfolio ol li {
+     font-size: 1.3em;
+   }
+ 
+   .button {
+     width: 250px;
+   }
+ 
+   /**Contact Page**/
+   .contact-container {
+     display: flex;
+     padding: 60px 120px;
+   }
+ 
+   .contact-header {
+     width: 90%;
+   }
+   .contact-header a i {
+     font-size: 3.8em;
+   }
+ 
+   .contact-header h2 {
+     padding: 30px 0 0 0;
+   }
+ 
+   .contact-image {
+     width: 98.3%;
+   }
+ 
+   .form-container {
+     width: 300%;
+     padding: 100px 20px 50px 25px;
+   }
+ }
+   

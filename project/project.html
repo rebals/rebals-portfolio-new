@@ -28,56 +28,38 @@
    </head>
    <body>
       <header>
-         <div class="content-wrapper">
-            <h1>Reba Smith</h1>
+         <div class="nav-bar">
+            <h2>Reba Smith</h2>
             <i class="fas fa-code"></i>
-            <nav class="nav-bar">
+            <nav class="nav-menu">
                <ul>
-                  <li><a href="../home.html">Home</a></li>
-                  <li><a href="../home.html#about">About</a></li>
-                  <li><a href="../home.html#skills">Skills</a></li>
+                  <li><a href="home.html">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#skills">Skills</a></li>
                   <li><a href="project/project.html">Project</a></li>
-                  <li><a href="../contact/contact.html">Contact</a></li>
+                  <li><a href="contact/contact.html">Contact</a></li>
                </ul>
             </nav>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
          </div>
       </header>
 
       <main>
-         <div class="content-wrapper">
-            <h2>Projects</h2>
-            <article>
-               <div class="portfolio-project">
-                  <figure>
-                     <a href="https://3o1sk.csb.app/" target="_blank"><img src="../img/sticky-note.png" alt="Sticky Note" /></a>
-                  </figure>
-               </div>
-               <div class="project-description">
-                  <h4>Sticky Note</h4>
-                  <p>Create an interactive app that will let users create “sticky notes” on their computer to keep track of to-do items.</p>
-
-                  <div class="project-skills">
-                     <h4>Skills/Tools</h4>
-                     <ol>
-                        <li>React</li>
-                        <li>ES6</li>
-                        <li>JSX</li>
-                        <li>Managing data flow</li>
-                        <li>Manipulate the DOM</li>
-                        <li>CodeSandbox</li>
-                     </ol>
+         <div class="portfolio"></div>
+            <div class="content-wrapper">
+               <h2>Projects</h2>
+               <article>
+                  <div class="portfolio-project">
+                     <figure>
+                        <a href="https://3o1sk.csb.app/" target="_blank"><img src="../img/sticky-note.png" alt="Sticky Note" /></a>
+                     </figure>
                   </div>
-               </div>
-            </article>
-
-            <article>
-               <div class="portfolio-project">
-                  <figure>
-                     <a href="https://5zn3r.csb.app/" target="_blank"><img src="../img/nametag.png" alt="Nametag Generator" /></a>
-                  </figure>
                   <div class="project-description">
-                     <h4>Nametag Generator</h4>
-                     <p>Built a name tag generator to create bulk name tags using functional components and ES6 modules</p>
+                     <h4>Sticky Note</h4>
+                     <p>Create an interactive app that will let users create “sticky notes” on their computer to keep track of to-do items.</p>
+
                      <div class="project-skills">
                         <h4>Skills/Tools</h4>
                         <ol>
@@ -85,65 +67,87 @@
                            <li>ES6</li>
                            <li>JSX</li>
                            <li>Managing data flow</li>
-                           <li>CodeSandbox</li>
-                        </ol>
-                     </div>
-                  </div>
-               </div>
-            </article>
-
-            <article>
-               <div class="portfolio-project">
-                  <figure>
-                     <a href="https://rebals.github.io/guess-the-word/" target="_blank"><img src="../img/guess.png" alt="Guess the Word" /></a>
-                  </figure>
-                  <div class="project-description">
-                     <h4>Guess the Word</h4>
-                     <p>Players guess the word by entering one letter at a time. If the player guesses all the letters correctly before they use up their allotted guesses, they win!</p>
-                     <div class="project-skills">
-                        <h4>Skills/Tools</h4>
-                        <ol>
                            <li>Manipulate the DOM</li>
-                           <li>Vanilla JavaScript</li>
                            <li>CodeSandbox</li>
-                           <li>GitHub</li>
                         </ol>
                      </div>
                   </div>
-               </div>
-            </article>
+               </article>
 
-            <article>
-               <div class="portfolio-project">
-                  <figure>
-                     <a href="https://rebals.github.io/unplugged-retreat/" target="_blank"><img src="../img/unplugged.png" alt="Unplugged Retreat" /></a>
-                  </figure>
-                  <div class="project-description">
-                     <h4>Unplugged Retreat</h4>
-                     <p>A 3-page responsive website from a design comp that adapts to mobile, table, and desktop screens.</p>
-                     <div class="project-skills">
-                        <h4>Skills/Tools</h4>
-                        <ol>
-                           <li>HTML5</li>
-                           <li>CSS3</li>
-                           <li>Responsive typography</li>
-                           <li>Flexbox</li>
-                           <li>Media Queries</li>
-                           <li>Text editor</li>
-                           <li>Photoshop</li>
-                           <li>GitHub</li>
-                        </ol>
+               <article>
+                  <div class="portfolio-project">
+                     <figure>
+                        <a href="https://5zn3r.csb.app/" target="_blank"><img src="../img/nametag.png" alt="Nametag Generator" /></a>
+                     </figure>
+                     <div class="project-description">
+                        <h4>Nametag Generator</h4>
+                        <p>Built a name tag generator to create bulk name tags using functional components and ES6 modules</p>
+                        <div class="project-skills">
+                           <h4>Skills/Tools</h4>
+                           <ol>
+                              <li>React</li>
+                              <li>ES6</li>
+                              <li>JSX</li>
+                              <li>Managing data flow</li>
+                              <li>CodeSandbox</li>
+                           </ol>
+                        </div>
                      </div>
                   </div>
-               </div>
-            </article>
-         </div>
-         <div class="repo-gallery">
-            <h5 class="button">
-               <a href="../github-repo-gallery/repo-gallery.html" target="_blank"><span>GitHub Repo Gallery</span></a>
-            </h5>
-         </div>
+               </article>
 
+               <article>
+                  <div class="portfolio-project">
+                     <figure>
+                        <a href="https://rebals.github.io/guess-the-word/" target="_blank"><img src="../img/guess.png" alt="Guess the Word" /></a>
+                     </figure>
+                     <div class="project-description">
+                        <h4>Guess the Word</h4>
+                        <p>Players guess the word by entering one letter at a time. If the player guesses all the letters correctly before they use up their allotted guesses, they win!</p>
+                        <div class="project-skills">
+                           <h4>Skills/Tools</h4>
+                           <ol>
+                              <li>Manipulate the DOM</li>
+                              <li>Vanilla JavaScript</li>
+                              <li>CodeSandbox</li>
+                              <li>GitHub</li>
+                           </ol>
+                        </div>
+                     </div>
+                  </div>
+               </article>
+
+               <article>
+                  <div class="portfolio-project">
+                     <figure>
+                        <a href="https://rebals.github.io/unplugged-retreat/" target="_blank"><img src="../img/unplugged.png" alt="Unplugged Retreat" /></a>
+                     </figure>
+                     <div class="project-description">
+                        <h4>Unplugged Retreat</h4>
+                        <p>A 3-page responsive website from a design comp that adapts to mobile, table, and desktop screens.</p>
+                        <div class="project-skills">
+                           <h4>Skills/Tools</h4>
+                           <ol>
+                              <li>HTML5</li>
+                              <li>CSS3</li>
+                              <li>Responsive typography</li>
+                              <li>Flexbox</li>
+                              <li>Media Queries</li>
+                              <li>Text editor</li>
+                              <li>Photoshop</li>
+                              <li>GitHub</li>
+                           </ol>
+                        </div>
+                     </div>
+                  </div>
+               </article>
+            </div>
+            <div class="repo-gallery">
+               <h5 class="button">
+                  <a href="../github-repo-gallery/repo-gallery.html" target="_blank"><span>GitHub Repo Gallery</span></a>
+               </h5>
+            </div>
+         </div>   
          <!--Return to top of page-->
          <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
       </main>
