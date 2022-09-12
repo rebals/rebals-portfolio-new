@@ -317,13 +317,21 @@ Homepage Page
  }
  
  /* Style the Image Used to Trigger the Modal */
-#myImg02, #myImg02 {
-   border-radius: 5px;
+#myImg01 {
+   border-radius: 6px;
+   cursor: pointer;
+   transition: 0.3s;
+}
+
+#myImg02 {
+   border-radius: 6px;
    cursor: pointer;
    transition: 0.3s;
 }
  
-#myImg01:hover, #myImg02:hover {opacity: 0.7;}
+#myImg01:hover {opacity: 0.7;} 
+
+#myImg02:hover {opacity: 0.7;}
  
 /* The Modal (background) */
 .modal {
