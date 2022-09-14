@@ -423,11 +423,13 @@ Project page
    padding: 60px 0;
  }
  
- .portfolio p {
-   padding: 0 60px 0 0;
+ .project-description {
+   
+   padding: 25px 15px;
+   color: #637074;
+   
  }
- 
- .project-skills ol{
+ .project-skills {
    width: 100%;
    display: flex;
    justify-content: space-between;
@@ -435,6 +437,7 @@ Project page
    flex-flow: row wrap;
    line-height: 1.5;
    padding-bottom: 60px;
+   
  }
  
  .project-skills ol li {
@@ -443,15 +446,15 @@ Project page
  }
  
  .portfolio-project {
-   background: #a2e8dd;
+   background: #8ef9f3
  }
  
  .portfolio figure {
    padding: 80px 0 5px 0;
-   background: #5BC0BE;
+   background: #8ef9f3;
  }
  
- .portfolio h3,
+ .portfolio h4,
  .project-skills,
  .project-description {
    padding: 0 25px;
@@ -466,12 +469,13 @@ Project page
    justify-content: center;
    align-items: center;
    padding: 50px;
+   background-color: #9b8dc9;
  }
  
  .button {
    display: inline-block;
    border-radius: 8px;
-   background-color: #152A3E;
+   background-color: #637074;
    border: none;
    color: #FFFFFF;
    text-align: center;
