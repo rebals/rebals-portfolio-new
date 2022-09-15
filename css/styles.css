@@ -410,113 +410,112 @@ Project page
 
 .portfolio {
    
- }
+}
+
+.portfolio .content-wrapper {
+  width: 80%;
+}
+
+.portfolio h2 {
+  display: flex;
+  justify-content: center;    
+  align-content: center;
+  padding: 60px 0;
+}
+
+.portfolio article {
+  padding: 40px 0;
+}
+
+.project-description {
+  padding: 6px 15px;
+  background-color: #8ef9f3;
+  color: #637074;
+}
+
+.project-skills {
+  padding-bottom: 25px;
+}
+
+.portfolio-project img:hover {
+  box-shadow: 0 0 2px 4px #9b8dc9;
+}
  
- .portfolio .content-wrapper {
-   width: 85%;
- }
+.repo-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #9b8dc9;
+}
  
- .portfolio h2 {
-   display: flex;
-   justify-content: center;    
-   align-content: center;
-   padding: 60px 0;
- }
- 
- .project-description {
-   
-   padding: 25px 15px;
-   color: #637074;
-   
- }
- .project-skills {
-   width: 100%;
-   display: flex;
-   justify-content: space-between;
-   align-items: start;
-   flex-flow: row wrap;
-   line-height: 1.5;
-   padding-bottom: 60px;
-   
- }
- 
- .project-skills ol li {
-   width: 50%;
-   font-size: 1.25em;
- }
- 
- .portfolio-project {
-   background: #8ef9f3
- }
- 
- .portfolio figure {
-   padding: 80px 0 5px 0;
-   background: #8ef9f3;
- }
- 
- .portfolio h4,
- .project-skills,
- .project-description {
-   padding: 0 25px;
- }
- 
- .portfolio img:hover {
-   box-shadow: 0 0 2px 1px #152A3E;
- }
- 
- .repo-gallery {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   padding: 50px;
-   background-color: #9b8dc9;
- }
- 
- .button {
-   display: inline-block;
-   border-radius: 8px;
-   background-color: #637074;
-   border: none;
-   color: #FFFFFF;
-   text-align: center;
-   font-size: 1.25rem;
-   padding: 20px;
-   width: 200px;
-   transition: all 0.5s;
-   cursor: pointer;
-   margin: 9px;
- }
- 
- .button span {
-   cursor: pointer;
-   display: inline-block;
-   position: relative;
-   transition: 0.5s;
- }
- 
- .button span:after {
-   content: '\00bb';
-   position: absolute;
-   opacity: 0;
-   top: 0;
-   right: -20px;
-   transition: 0.5s;
- }
- 
- .button:hover span {
-   padding-right: 25px;
- }
- 
- .button:hover span:after {
-   opacity: 1;
-   right: 0;
- }
+.repo-button {
+  display: inline-block;
+  border-radius: 8px;
+  background-color: #637074;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1.15rem;
+  padding: 15px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 9px;
+}
+
+.repo-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.repo-button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.repo-button:hover span {
+  padding-right: 25px;
+}
+
+.repo-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
 /*===========================
 Repo Gallery
 ===========================*/
 * {
     box-sizing: border-box;
 }
+a
 
 .repo-gallery {
     display: flex;
