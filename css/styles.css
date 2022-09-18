@@ -120,7 +120,7 @@ footer p {
    margin: 0;
 }
 
-footer .contact-info i {
+footer .contact-icon i {
    font-size: 4em;
    padding: 5px 35px;
 }
@@ -137,7 +137,7 @@ footer .social-icons {
    padding-left: 15px;
 }
  
-.contact-info, .social {
+.contact-icon, .social {
    padding: 40px 0 15px 0;
 }
  
@@ -513,34 +513,64 @@ Project page
 Contact page
 ===========================*/
 
-.contact .content-wrapper {
+.contact-page .content-wrapper {
   width: 85%;
 }
 
-.contact h2 {
+.contact-page h2 {
   display: flex;
   justify-content: center;    
   align-content: center;
   padding: 60px 0;
 }
 
-.contact article {
-  padding: 25px 0;
+.contact-page article {
+  padding: 20px 0;
 }
 
+.form-header {
+  background-color: #9b8dc9;
+  padding: 40px;
+}
 .contact-info a {
   color: #637074;
 }
+
+.address i {
+  font-size: 2em;
+  padding: 0 10px;
+}
+
 .contact-info {
   color: #637074;
   background-color: #8ef9f3;
+  padding: 45px 35px;
 }
 
-.social h4 {
+.social-contact h4 {
   display: flex;
   justify-content: center;    
   align-content: center;
-  padding: 25px 0;
+  padding: 25px 0 5px 0;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.social-media i {
+  font-size: 3.25em;
+  padding: 0 25px;
+}
+
+.contact-image p {
+  position: relative;
+   font-size: .60em;
+   color: #8ef9f3;
+   bottom: 30px;
+   left: 10px;
 }
 
 /* Style inputs, select elements and textareas */
@@ -598,6 +628,10 @@ input[type=submit] {
   clear: both;
 }
 
+.contact-copyright {
+  margin-top: 40px;
+  font-weight: 500;
+}
 
 
 /*===========================
