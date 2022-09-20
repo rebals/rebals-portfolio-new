@@ -29,7 +29,7 @@ span.onclick = function() {
 // Mobile menu //
 
 function myFunction() {
-    var x = document.getElementById("myLinks");
+    var x = document.getElementsByClassName("nav-menu");
     if (x.style.display === "block") {
       x.style.display = "none";
     } else {
