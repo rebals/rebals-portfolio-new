@@ -1,11 +1,3 @@
-@import "compass/css3";
-@import "susy";
-@import "breakpoint";
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
-* {
-  box-sizing: border-box;
-}
 body {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
@@ -243,11 +235,12 @@ Homepage Page
    flex-flow: row wrap;
    width: 100%;
    padding: 30px 90px;
-   font-size: 5em;
+   font-size: 5em; 
 }
 
 .skills-icon i{
    padding: 10px;
+   color: #080708;
 }
 
 .skills {
@@ -601,7 +594,6 @@ Repo Gallery
 * {
     box-sizing: border-box;
 }
-a
 
 .repo-gallery {
     display: flex;
@@ -609,7 +601,7 @@ a
     justify-content: center;
     margin: 0;
     font-family: "Open Sans", sans-serif;
-    background-color: #fbf9de;
+    background-color: #637074;
     color: #333;
     font-size: 16px;
 }
@@ -684,7 +676,7 @@ h3 {
     color: #f86d58;
 }
 
-ul {
+.ul {
     list-style: none;
     padding: 0;
 }
@@ -697,6 +689,7 @@ ul {
     align-items: center;
     width: 90%;
     max-width: 1200px;
+    margin: 0;
 }
 
 .intro,
@@ -834,19 +827,19 @@ section.repo-data {
 
 @media (min-width: 700px) {
 
-    /*****Repo Gallery*****/
-    .user-info div {
-        width: 45%;
-        text-align: left;
-    }
+  /*****Repo Gallery*****/
+  .user-info div {
+    width: 45%;
+    text-align: left;
+  }
 
-    .repo-list {
-        justify-content: space-between;
-    }
+  .repo-list {
+      justify-content: space-between;
+  }
 
-    .repo-list li {
-        width: 48%;
-    }
+  .repo-list li {
+      width: 48%;
+  }
 }
 
 @media (max-width: 700px) {
@@ -857,257 +850,24 @@ section.repo-data {
     }
 }
 
-@media (min-width: 1200px) {
-
-     /*****Repo Gallery*****/
-    .repo-list li {
-        width: 30%;
-    }
-}
 /* ================== */
  /* 100% Image Width on Smaller Screens */
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
+  .col-75, input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
 }
 
- @media only screen and (min-width: 75em) {
-   /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 75em) {
+  /* Style adjustments for viewports that meet the condition */
  
-   /*Desktop styles here*/
+  /*Desktop styles here*/
  
-   /*Header-Footer-Hero*/
-   header .content-wrapper {
-     display: flex;
-     justify-content: space-between;
-     align-content: space-between;
-     flex-flow: row nowrap;
-   }
- 
-   header {
-     padding: 20px 0;
-   }
- 
-   header h1 {
-     font-size: 2em;
-   }
- 
-   header nav {
-     width: 38%;
-     font-size: 1.15em;
-   }
- 
-   footer {
-     padding: 15px;
-   }
- 
-   footer .content-wrapper {
-     display: flex;
-     justify-content: space-between;
-     align-content: space-between;
-     flex-flow: row wrap;
-     width: 55%;
-   }
- 
-   .contact-info {
-     padding-top: 60px;
-   }
- 
-   footer h2 {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     width: 100%;
-     flex-flow: row;
-     font-size: 2.5em;
-   }
- 
-   .copyright {
-     width: 100%;
-   }
-  
-   .hero-area {
-     min-height: 850px;
-   }
- 
-   .hero-area h2 {
-     font-size: 6.5em;
-     text-shadow: 5px 5px #5BC0BE;
-   }
- 
-   .hero-area p {
-     font-size: .55em;
-     padding-top: 500px;
-   }
- 
-   /*Homepage*/
- 
-   #about h2 {   
-     font-size: 2.5em;
-   }
- 
-   #about .content-wrapper {
-     width: 90%;
-     display: flex;
-     justify-content: space-between;
-     align-content: space-between;
-     flex-flow: row;
-   }
- 
-   #about h3 {
-     font-size: 1.75em;
-   }
- 
-   #about h4 {
-     font-size: 1.5em;
-   }
- 
-   #about p {
-     font-size: 1.3em;
-   }
- 
-   .profile-title {
-     width: 35%;
-     padding: 40px 0px;
-   }
- 
-   .profile-bio {
-     width: 60%;
-     padding: 40px;
-   }
- 
-   .profile-title h3, h4 {
-     padding-left: 10px;
-   }
- 
-   #skills .content-wrapper {
-     display: flex;
-     justify-content: space-between;
-     align-content: space-between;
-     flex-flow: row;
-     margin: 0;
-     padding: 0;
-   }
- 
-   #skills ol {
-     padding: 0;
-   }
-   
-   #skills ol li {
-     font-size: 1em;
-   }
- 
-   #skills h2 {
-     font-size: 2em;
-     padding: 0;
-     line-height: 2;
-   }
- 
-   .skills-image {
-     width: 38%;
-     display: flex;
-     padding-right: 25px;
-   }
- 
-   .skills-image p {
-     font-size: .5em;
-     bottom: 1.5px;
-   }
- 
-   .tools-info  {
-     padding: 45px;
-     line-height: 1.2;
-   }
- 
-   .skills-info {
-     padding: 45px 0;
-     line-height: 1.2;
-   }
- 
-   .button{
-     width: 50%;
-     margin: 25px 0;
-   }
-   .certification {
-     padding: 42px 50px 50px 0;
-   }
- 
-   #myImg {
-     padding-left: 0;
-   }
-
-   /*Certification Section*/
-   
- 
-   /*Portfolio Page*/
-   .portfolio h2 {
-     width: 100%;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     flex-flow: row nowrap;       
-     font-size: 2.5em;
-   }
- 
-   .portfolio .content-wrapper {
-     display: flex;
-     justify-content: space-between;
-     align-content: space-between;
-     flex-flow: row wrap;
-   } 
- 
-  .portfolio article {
-     width: 45%;
-     display: flex;   
-   }
- 
-   .portfolio h3 {
-     font-size: 1.75em;
-   }
- 
-   .portfolio h4 {
-     font-size: 1.5em;
-   }
- 
-   .portfolio p {
-     font-size: 1.3em;
-   }
- 
-   .portfolio ol li {
-     font-size: 1.3em;
-   }
- 
-   .button {
-     width: 250px;
-   }
- 
-   /**Contact Page**/
-   .contact-container {
-     display: flex;
-     padding: 60px 120px;
-   }
- 
-   .contact-header {
-     width: 90%;
-   }
-   .contact-header a i {
-     font-size: 3.8em;
-   }
- 
-   .contact-header h2 {
-     padding: 30px 0 0 0;
-   }
- 
-   .contact-image {
-     width: 98.3%;
-   }
- 
-   .form-container {
-     width: 300%;
-     padding: 100px 20px 50px 25px;
-   }
- }
+  /*****Repo Gallery*****/
+  .repo-list li {
+    width: 30%;
+  }
+}
    
