@@ -62,6 +62,17 @@ header, footer {
    background-color: #080708;
 }
 
+.nav-bar {
+  font-size: .875em;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;  
+  padding: 15px 0; 
+}
+
 .nav-bar h2 {
    font-size: 1.35em;
    padding: 5px 15px;
@@ -70,6 +81,117 @@ header, footer {
 .fas {
    font-size: 1.5em;
    padding: 6px 0;   
+}
+
+.nav-menu a {
+  padding: 0 10px;
+}
+
+.nav-bar a:hover {
+  color: #080708;
+  border-radius: 25px;
+  background: #9b8dc9;
+  padding: 10px;
+  width: 200px;
+  height: 150px;
+}
+
+.nav-menu{
+  width: 60%;
+  height: 20%;
+  overflow: hidden;
+}
+
+#menuToggle {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 25px;
+  right: 50px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input
+{
+  display: flex;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
+}
+
+#menuToggle span
+{
+  display: flex;
+  width: 29px;
+  height: 2px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #8ef9f3;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 5px 0px;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-3px, -1px);
+  background: #36383F;
+}
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu
+{
+  position: absolute;
+  width: 200px;
+  height: 240px;
+  box-shadow: 0 0 10px #85888C;
+  margin: 30px 0 0 -150px;
+  padding: 70px;
+  padding-top: 25px;
+  background-color: #637074;
+  -webkit-font-smoothing: antialiased;
+  transform-origin: 0% 0%;
+  transform: translate(100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  transition-delay: 2s;
+}
+
+#menuToggle input:checked ~ ul
+{
+  transform: none;
 }
 
 
