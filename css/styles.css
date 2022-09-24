@@ -397,31 +397,30 @@ Homepage Page
 /**Certification**/
 
 .certification {
-   padding: 60px 0;
- }
+  padding: 60px 0;
+}
 
- .certification h2 {
-   display: flex;
-   justify-content: center;
-   padding: 40px 0;
- }
+.certification h2 {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
 
- .certification img {
-   padding-left: 55px;
-   width: 50%;
- }
- 
- /* Style the Image Used to Trigger the Modal */
+.certification img {
+  padding-left: 55px;
+  width: 50%;
+}
+
 #myImg01 {
-   border-radius: 6px;
-   cursor: pointer;
-   transition: 0.3s;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 #myImg02 {
-   border-radius: 6px;
-   cursor: pointer;
-   transition: 0.3s;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
 }
  
 #myImg01:hover {opacity: 0.7;} 
