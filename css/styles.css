@@ -1060,6 +1060,40 @@ section.repo-data {
   {
     transform: none;
   }
+
+  /**** Contact Page ****/
+  
+  input[type=submit] {
+    float: left;
+  }
+  
+  .container {
+    padding: 40px;
+  }
+  
+  .col-75 {
+    width: 100%;
+  }
+  
+  .address {
+    padding: 0 70px;
+    
+  }
+
+  .address p {
+    font-size: 2em;
+  }
+  
+  .social-contact h4 {
+    font-size: 2.25em;
+  }
+  
+  
+  .social-media i {
+    font-size: 4em;
+  }
+  
+  
 }
 
 @media only screen and (width: 64em) {
