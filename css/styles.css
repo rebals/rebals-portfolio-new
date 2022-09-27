@@ -224,10 +224,6 @@ Homepage Page
 #skills .content-wrapper {    
    width: 100%;    
 }
- 
-#skills img {
-   width: 100%;
-}
 
 #skills h2 {
    display: flex;
@@ -243,7 +239,6 @@ Homepage Page
    align-items: center;
    flex-flow: column;
    line-height: 1.5;
-   padding: 0;
 }
   
 #skills ol li {
@@ -265,11 +260,11 @@ Homepage Page
    color: #080708;
 }
 
-.skills {
+.skill {
    padding: 60px 0;
 }
 
-.tools  h4{
+.tools h4{
    display: flex;
    justify-content: center;
    align-items: center;
@@ -278,18 +273,20 @@ Homepage Page
 }
 
 .tools {
-   padding-bottom: 60px;
+  padding-bottom: 40px;
 }
+
 .image {
    width: 100%;
-   
    position: relative;
+   background-color: #637074;
 }
+
 .image p {
    position: absolute;
    font-size: .8em;
    color: #8ef9f3;
-   text-shadow: 1px 1px #080708;
+   text-shadow: .5px .5px #080708;
    top: 8px;
    left: 16px;
 }
@@ -853,25 +850,31 @@ section.repo-data {
   }
 
   /* Skills */
-  .skills, .tools {
+  .skill, .tools {
     padding: 60px 25px;
   }
 
+  .skills-list {
+    padding-top: 40px;
+  }
   .skills-icon {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-flow: row wrap;
+    width: 100%;
+    padding: 20px 180px;
     font-size: 8em;
   }
 
   .skills-icon i{
-    padding: 40px;
+    padding: 20px;
     color: #080708;
  }
 
-  .tools .skills-icon {
-    
-  }
-
-  .tools  h4{
-    font-size: 2em;
+  .tools  h4 {
+    font-size: 2.5em;
+    font-weight: 700;
  }
    
   /*** Certificate ***/
