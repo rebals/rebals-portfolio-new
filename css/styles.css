@@ -851,6 +851,28 @@ section.repo-data {
   .profile-bio p {
     font-size: 1.25em;
   }
+
+  /* Skills */
+  .skills, .tools {
+    padding: 60px 25px;
+  }
+
+  .skills-icon {
+    font-size: 8em;
+  }
+
+  .skills-icon i{
+    padding: 40px;
+    color: #080708;
+ }
+
+  .tools .skills-icon {
+    
+  }
+
+  .tools  h4{
+    font-size: 2em;
+ }
    
   /*** Certificate ***/
 
