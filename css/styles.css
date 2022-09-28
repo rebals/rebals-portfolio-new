@@ -962,6 +962,43 @@ section.repo-data {
     width: 100%;
   }
 
+  
+  /**** Contact Page ****/
+  
+  input[type=submit] {
+    float: left;
+  }
+  
+  .container {
+    padding: 40px;
+  }
+  
+  .col-75 {
+    width: 100%;
+  }
+  
+  .address {
+    padding: 0 70px;
+    
+  }
+
+  .address p {
+    font-size: 2em;
+  }
+  
+  .social-contact h4 {
+    font-size: 2.25em;
+  }
+  
+  
+  .social-media i {
+    font-size: 4em;
+  }
+  
+  
+}
+
+@media only screen and (max-width: 64em){
   /* Mobile menu*/
   .nav-menu{
     width: 50%;
@@ -1061,44 +1098,21 @@ section.repo-data {
     transform: none;
   }
 
-  /**** Contact Page ****/
-  
-  input[type=submit] {
-    float: left;
-  }
-  
-  .container {
-    padding: 40px;
-  }
-  
-  .col-75 {
-    width: 100%;
-  }
-  
-  .address {
-    padding: 0 70px;
-    
-  }
-
-  .address p {
-    font-size: 2em;
-  }
-  
-  .social-contact h4 {
-    font-size: 2.25em;
-  }
-  
-  
-  .social-media i {
-    font-size: 4em;
-  }
-  
-  
 }
 
 @media only screen and (width: 64em) {
   #menuToggle {
-    right: 25px;
+    right: 60px;
+  }
+
+  /**** Contact Page ****/
+  .contact-info {
+    display: flex;
+  }
+
+  .address {
+    width: 50%;
+    margin: 40px;
   }
 }
 
