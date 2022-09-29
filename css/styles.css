@@ -1122,50 +1122,51 @@ section.repo-data {
   /*Desktop styles here*/
 
   /*Header-Footer-Hero*/
-  header .content-wrapper {
-   
-  }
-
-  header {
-    padding: 10px 0;
+    header {
+    padding:;
   }
 
   .nav-bar h2 {
     font-size: 2em;
   }
 
-  header nav {
-    width: 38%;
-    font-size: 1.15em;
+  .nav-bar {
+    display: flex;
+    padding: 12px 25px;
+  }
+  
+  .nav-menu ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;  
+  }
+
+  #menu {
+    padding-left: 400px;
+  }
+  
+  #menu a {
+    font-size: 1.25em;
+    font-weight: 800;
+    padding: 0 35px;
   }
 
   #menuToggle input{
     display: none;
   }
 
-
-  footer {
-    padding: 15px;
-  }
-
   footer .content-wrapper {
     display: flex;
     justify-content: space-between;
     align-content: space-between;
-    flex-flow: row wrap;
-    width: 55%;
   }
 
-  .contact-info {
-    padding-top: 60px;
+  
+  .contact-icon {
+    
   }
 
   footer h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    flex-flow: row;
     font-size: 2.5em;
   }
 
