@@ -1132,10 +1132,6 @@ section.repo-data {
     font-size: 2em;
   }
 
-  h4 {
-    font-size: .1em;
-  }
-
   /*Header-Footer*/
   .nav-bar h2 {
     font-size: 2em;
@@ -1213,7 +1209,7 @@ section.repo-data {
     justify-content: space-between;
     align-content: space-between;
     flex-flow: row wrap;
-    width: 80%;
+    width: 100%;
   }
 
   #about .content-wrapper h2 {
@@ -1221,12 +1217,12 @@ section.repo-data {
     justify-content: center;
     align-content: center;
     flex-flow: row wrap;
-    width: 100%;
+    width: 90%;
     
   }
 
   .profile-title {
-      width: 35%;
+      width: 40%;
       padding-left: 30px;
   }
 
@@ -1236,10 +1232,61 @@ section.repo-data {
   }
 
   .profile-bio {
-    width: 60%;
+    width: 55%;
     padding-top: 35px;
+    
+  }
+
+  .profile-bio p {
+    font-size: 1em;
   }
  
+  #skills .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-flow: row wrap;
+    width: 60%;
+    padding-right: 50px;
+  }
+
+  #skills h2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: row wrap;
+    width: 100%;
+  }
+  
+  .skill {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-flow: row;
+  }
+  .skills-icon {
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: row wrap;
+    width: 60%;
+  }
+
+  .skills-list {
+    font-size: .75em;
+  }
+
+  .tools {
+    display: flex;
+  }
+
+  .image {
+    width: 27.7%;
+    position: absolute;
+    right: -.25%;
+    
+  }
   /*Portfolio Page*/
   
 
