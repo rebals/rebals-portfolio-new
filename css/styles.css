@@ -228,7 +228,11 @@ Homepage Page
   color: #080708;
 }
 
-#skills .content-wrapper {    
+#skills .content-wrapper {  
+  display: flex;  
+  justify-content: center;
+  align-content: center;
+  flex-flow: row wrap;
   width: 100%;    
 }
 
@@ -1262,7 +1266,7 @@ section.repo-data {
   }
 
   .image {
-    width: 100%;
+    width: 50%;
   }
   
   /*Portfolio Page*/
