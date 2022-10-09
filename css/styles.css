@@ -1247,6 +1247,9 @@ section.repo-data {
  
   #skills .content-wrapper {
     display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-flow: row wrap;
   }
 
   .skills-icon {
@@ -1266,7 +1269,7 @@ section.repo-data {
   }
 
   .image {
-    width: 50%;
+    width: 100%;
   }
   
   /*Portfolio Page*/
