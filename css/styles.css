@@ -287,21 +287,6 @@ Homepage Page
   padding-bottom: 40px;
 }
 
-.image {
-  width: 100%;
-  position: relative;
-  background-color: #637074;
-}
-
-.image p {
-  position: absolute;
-  font-size: .8em;
-  color: #8ef9f3;
-  text-shadow: .5px .5px #080708;
-  top: 8px;
-  left: 16px;
-}
-
 /**Certification**/
 
 .certification {
@@ -1268,10 +1253,6 @@ section.repo-data {
     font-size: 2em;
   }
 
-  .image {
-    width: 100%;
-  }
-  
   /*Portfolio Page*/
   
 
