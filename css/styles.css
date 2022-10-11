@@ -78,11 +78,6 @@ header, footer {
   padding: 5px 15px;
 }
 
-.fas {
-  font-size: 1.5em;
-  padding: 6px 0;   
-}
-
 .nav-menu a {
   padding: 0 10px;
 }
@@ -783,11 +778,6 @@ section.repo-data {
     padding: 0 10px;
   }
 
-  .fas {
-    font-size: 2em;
-    padding: 0 5px;   
-  }
-
   footer .contact-icon i {
     font-size: 6em;
     padding: 5px 70px;
@@ -1122,17 +1112,22 @@ section.repo-data {
   }
 
   /*Header-Footer*/
+ 
   .nav-bar h2 {
-    font-size: 2em;
+    font-size: 2.25em;
   }
 
   .nav-bar {
     display: flex;
-    padding: 12px 25px;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row;
+    width: 100%;
+    padding: 15px 0;
   }
   
   .nav-menu ul {
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-between;  
   }
