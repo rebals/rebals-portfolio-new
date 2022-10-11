@@ -1201,13 +1201,13 @@ section.repo-data {
     justify-content: center;
     align-content: center;
     flex-flow: row wrap;
-    width: 90%;
+    width: 100%;
     
   }
 
   .profile-title {
       width: 40%;
-      padding-left: 30px;
+      padding: 0 30px;
   }
 
   .profile-title h4 {
@@ -1230,6 +1230,7 @@ section.repo-data {
     justify-content: space-between;
     align-content: space-between;
     flex-flow: row wrap;
+    width: 85%;
   }
 
   .skills-icon {
