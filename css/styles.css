@@ -1230,7 +1230,7 @@ section.repo-data {
     justify-content: space-between;
     align-content: space-between;
     flex-flow: row wrap;
-    width: 85%;
+    width: 80%;
   }
 
   .skills-icon {
