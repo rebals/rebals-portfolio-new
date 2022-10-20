@@ -24,7 +24,7 @@ h1 {
 
 h2 {
   font-family: 'Merriweather', serif;
-  font-size: 2.25em;
+  font-size: 2em;
   font-weight: 700;
   margin: 0;
   color: #a2e8dd;
@@ -103,7 +103,11 @@ footer{
 }
 
 footer h2 {
-  padding: 30px 0;
+  padding: 60px 0 30px 0;
+}
+
+footer h4 {
+  padding: 0 0 30px 0;
 }
 
 footer p {
@@ -133,10 +137,6 @@ footer .social-icons {
   padding-top: 25px;
 }
 
-.contact-icon {
-  padding-top: 40px;
-}
- 
 .copyright {
   margin-top: 80px;
   font-weight: 500;
