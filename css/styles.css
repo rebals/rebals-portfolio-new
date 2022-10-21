@@ -1152,6 +1152,7 @@ section.repo-data {
     align-content: space-between;
     flex-flow: row wrap;
     width: 90%;
+    margin: 0;
   }
 
   .contact-icon {
@@ -1159,7 +1160,7 @@ section.repo-data {
   }
   
   .contact-icon a i {
-    font-size: 2.5em;
+    font-size: 5em;
   }
 
   footer h2 {
@@ -1172,9 +1173,14 @@ section.repo-data {
   }
 
   .social-icons a i{
-    font-size: 2.5em;
+    font-size: 5em;
     width: 100%;
   }
+
+  .copyright {
+    padding: 0;
+  }
+
   /*Homepage*/
  .hero-area {
   background-position: bottom;
