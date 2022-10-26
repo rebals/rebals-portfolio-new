@@ -65,11 +65,7 @@ header, footer {
 .nav-bar {
   font-size: .875em;
   font-weight: 700;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-flow: row wrap;  
+  text-transform: uppercase; 
   padding: 15px 0; 
 }
 
