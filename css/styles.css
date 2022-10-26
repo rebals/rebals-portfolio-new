@@ -231,6 +231,22 @@ Homepage Page
   width: 100%;    
 }
 
+.image {
+  position: relative;
+  text-align: left;
+} 
+
+.image p {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: .35em;     
+}
+
+.image p, a{  
+  color: #5BC0BE;  
+}
+
 #skills h2 {
   display: flex;
   justify-content: center;
