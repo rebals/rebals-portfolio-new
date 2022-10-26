@@ -297,7 +297,10 @@ Homepage Page
 /**Certification**/
 
 .certification {
-  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 40px 0;
 }
 
 .certification h2 {
@@ -308,9 +311,7 @@ Homepage Page
 
 .certification img {
   padding-left: 55px;
-  width: 50%;
 }
-
 
 
 /*===========================
