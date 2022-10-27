@@ -766,11 +766,6 @@ section.repo-data {
     }
 }
 
-
-
-/* ================== */
- /* 100% Image Width on Smaller Screens */
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .col-75, input[type=submit] {
     width: 100%;
@@ -790,6 +785,8 @@ section.repo-data {
     font-size: 2em;
     padding: 0 10px;
   }
+
+  
 
   footer .contact-icon i {
     font-size: 6em;
@@ -1101,7 +1098,7 @@ section.repo-data {
 
 @media only screen and (width: 64em) {
   #menuToggle {
-    right: 60px;
+    right: 10px;
   }
 
   /**** Contact Page ****/
