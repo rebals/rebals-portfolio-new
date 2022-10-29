@@ -1112,6 +1112,8 @@ section.repo-data {
   }
 }
 
+@media screen (min-width: 65em){}
+
 @media only screen and (min-width: 75em) {
   /* Style adjustments for viewports that meet the condition */
  
@@ -1124,7 +1126,7 @@ section.repo-data {
   /*Header-Footer*/
  
   .nav-bar h2 {
-    font-size: 2.25em;
+    font-size: 2em;
   }
 
   .nav-bar {
