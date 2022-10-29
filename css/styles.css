@@ -994,7 +994,7 @@ section.repo-data {
   
 }
 
-@media only screen and (max-width: 64em){
+@media only screen and (max-width: 75em){
   /* Mobile menu*/
   .nav-menu{
     width: 50%;
@@ -1111,8 +1111,6 @@ section.repo-data {
     margin: 40px;
   }
 }
-
-@media screen (min-width: 65em){}
 
 @media only screen and (min-width: 75em) {
   /* Style adjustments for viewports that meet the condition */
