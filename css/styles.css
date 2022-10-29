@@ -1161,16 +1161,14 @@ section.repo-data {
     justify-content: space-between;
     align-content: space-between;
     flex-flow: row wrap;
-    width: 90%;
-    margin: 0;
   }
 
   .contact-icon {
-    padding: 132px;
+    padding: 100px 0 0 140px;
   }
   
   .contact-icon a i {
-    font-size: 5.25em;
+    font-size: 4em;
   }
 
   footer h2 {
@@ -1179,16 +1177,14 @@ section.repo-data {
     align-items: center;
     width: 100%;
     flex-flow: row;
-    padding-left: 90px;
   }
 
   .social-icons a i{
-    font-size: 5em;
-    width: 100%;
+    font-size: 4em;
   }
 
-  .copyright {
-    padding: 0;
+  .social {
+    padding-right: 100px;
   }
 
   /*Homepage*/
