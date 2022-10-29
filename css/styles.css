@@ -1124,7 +1124,7 @@ section.repo-data {
   /*Header-Footer*/
  
   .nav-bar h2 {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   .nav-bar {
@@ -1137,9 +1137,9 @@ section.repo-data {
   }
   
   .nav-menu ul {
-    width: 80%;
     display: flex;
     justify-content: space-between;  
+    flex-flow: row;
   }
 
   #menu {
@@ -1147,7 +1147,7 @@ section.repo-data {
   }
   
   #menu a {
-    font-size: 1.25em;
+    font-size: 1.2em;
     font-weight: 800;
     padding: 0 35px;
   }
