@@ -1156,27 +1156,47 @@ section.repo-data {
     display: flex;
     justify-content: space-between;
     align-content: space-between;
-    flex-flow: row wrap;
-    width: 85%;
+    flex-flow: row;
+  }
+
+  .skill {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .skill h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
   }
 
   .skills-icon {
     font-size: 4em;
     display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-flow: row;
-    width: 100%;
-  }
-  .skills-list {
-    font-size: 1em;
-  }
-  
-  .tools h4 {
-    font-size: 2em;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-direction: row wrap;
+   
+    
   }
 
-  /*Certification*/
+  .image {
+    width: 38%;
+    display: flex;
+    padding-right: 25px;
+  }
+
+  .image p {
+    font-size: .5em;
+    bottom: 1.5px;
+  }
+
+  .tools-list {
+   
+  }
 
   .certification {
     display: flex;
@@ -1207,22 +1227,21 @@ section.repo-data {
 
   #myImg02:hover {opacity: 0.7;}
   
-  /* The Modal (background) */
+
   .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9); 
   }
   
-  /* Modal Content (Image) */
   .modal-content {
     margin: auto;
     display: block;
@@ -1230,7 +1249,6 @@ section.repo-data {
     max-width: 700px;
   }
   
-  /* Caption of Modal Image (Image Text) - Same Width as the Image */
   #caption {
     margin: auto;
     display: block;
@@ -1242,7 +1260,6 @@ section.repo-data {
     height: 150px;
   }
   
-  /* Add Animation - Zoom in the Modal */
   .modal-content, #caption {
     animation-name: zoom;
     animation-duration: 0.6s;
@@ -1253,7 +1270,6 @@ section.repo-data {
     to {transform:scale(1)}
   }
   
-  /* The Close Button */
   .close {
     position: absolute;
     top: 15px;
@@ -1271,7 +1287,6 @@ section.repo-data {
     cursor: pointer;
   }
   
-  /* 100% Image Width on Smaller Screens */
   @media only screen and (max-width: 700px){
     .modal-content {
       width: 100%;
