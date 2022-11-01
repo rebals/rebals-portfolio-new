@@ -1157,30 +1157,22 @@ section.repo-data {
     justify-content: space-between;
     align-content: space-between;
     flex-flow: row;
+    margin: 0;
+    padding: 0;
   }
 
-  .skill {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+  #skills ol {
+    padding: 0;
+  }
+  
+  #skills ol li {
+    font-size: 1em;
   }
 
-  .skill h2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-flow: column;
-    width: 100%;
-  }
-
-  .skills-icon {
-    font-size: 4em;
-    display: flex;
-    justify-content: space-between;
-    align-content: space-between;
-    flex-direction: row wrap;
-   
-    
+  #skills h2 {
+    font-size: 2em;
+    padding: 0;
+    line-height: 2;
   }
 
   .image {
@@ -1194,8 +1186,18 @@ section.repo-data {
     bottom: 1.5px;
   }
 
-  .tools-list {
-   
+  .skills-icon {
+    font-size: 4em;
+  }
+
+  .tools {
+    padding: 45px;
+    line-height: 1.2;
+  }
+
+  .skill {
+    padding: 45px 0;
+    line-height: 1.2;
   }
 
   .certification {
