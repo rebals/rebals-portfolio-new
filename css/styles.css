@@ -1158,7 +1158,7 @@ section.repo-data {
     align-content: space-between;
     flex-flow: row;
     margin: 0;
-    padding: 0;
+    padding-right: 80px;
   }
 
   #skills ol {
@@ -1166,19 +1166,21 @@ section.repo-data {
   }
   
   #skills ol li {
-    font-size: 1em;
+    font-size: 1.25em;
   }
 
   #skills h2 {
     font-size: 2em;
-    padding: 0;
     line-height: 2;
   }
 
+  #skills h4 {
+    font-size: 2em;
+  }
+
   .image {
-    width: 38%;
+    width: 30%;
     display: flex;
-    padding-right: 25px;
   }
 
   .image p {
@@ -1188,16 +1190,21 @@ section.repo-data {
 
   .skills-icon {
     font-size: 4em;
+    padding: 0;
   }
 
   .tools {
-    padding: 45px;
+    padding: 55px 80px 55px 40px;
     line-height: 1.2;
   }
 
   .skill {
     padding: 45px 0;
     line-height: 1.2;
+  }
+
+  .tools-list {
+    padding-top: 46px;
   }
 
   .certification {
