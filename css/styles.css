@@ -1309,7 +1309,46 @@ section.repo-data {
   }
 
   /*Portfolio Page*/
-  
+  .portfolio h2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;       
+    font-size: 2.5em;
+  }
+
+  .portfolio .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-flow: row wrap;
+  } 
+
+ .portfolio article {
+    width: 45%;
+    display: flex;   
+  }
+
+  .portfolio h3 {
+    font-size: 1.75em;
+  }
+
+  .portfolio h4 {
+    font-size: 1.5em;
+  }
+
+  .portfolio p {
+    font-size: 1.3em;
+  }
+
+  .portfolio ol li {
+    font-size: 1.3em;
+  }
+
+  .project-description {
+    height: 60%;
+  }
 
   /**Contact Page**/
   
