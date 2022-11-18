@@ -53,86 +53,51 @@
          <div class="contact-page">
             <div class="content-wrapper">
                <h2>Contact</h2>
-               <article class="contact-form">
-                  <div class="">
-                     <div class="container mx-auto">
-                        <div class="">
-                           <div class="text-center">
+               <article>
+                  <div class="contact-form">
+                     <div class="contact-container">
+                        <div class="contact-box">
+                           <div class="form-header">
                               <h1 class="">Contact Us</h1>
                               <p class="">Fill up the form below to send us a message.</p>
                            </div>
-                           <div class="m-7">
+                           <div class="form-box">
                               <form action="https://api.web3forms.com/submit" method="POST" id="form">
                                  <input type="hidden" name="access_key" value="a7ed774f-aad4-4616-9b7c-e85a725a1163" />
                                  <input type="hidden" name="subject" value="New Submission from Web3Forms" />
                                  <input type="checkbox" name="botcheck" id="" style="display: none" />
 
-                                 <div class="flex mb-6 space-x-4">
-                                    <div class="w-full md:w-1/2">
-                                       <label for="fname" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">First Name</label>
-                                       <input
-                                          type="text"
-                                          name="name"
-                                          id="first_name"
-                                          placeholder="John"
-                                          required
-                                          class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500"
-                                       />
+                                 <div class="form-input">
+                                    <div class="form-text">
+                                       <label for="fname" class="form-label">First Name</label>
+                                       <input type="text" name="name" id="first_name" placeholder="John" required class="form-info" />
                                     </div>
-                                    <div class="w-full md:w-1/2">
-                                       <label for="lname" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Last Name</label>
-                                       <input
-                                          type="text"
-                                          name="last_name"
-                                          id="lname"
-                                          placeholder="Doe"
-                                          required
-                                          class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500"
-                                       />
+                                    <div class="form-text">
+                                       <label for="lname" class="form-label">Last Name</label>
+                                       <input type="text" name="last_name" id="lname" placeholder="Doe" required class="form-info" />
                                     </div>
                                  </div>
 
-                                 <div class="flex mb-6 space-x-4">
-                                    <div class="w-full md:w-1/2">
-                                       <label for="email" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Email Address</label>
-                                       <input
-                                          type="email"
-                                          name="email"
-                                          id="email"
-                                          placeholder="you@company.com"
-                                          required
-                                          class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500"
-                                       />
+                                 <div class="form-input">
+                                    <div class="form-text">
+                                       <label for="email" class="form-label">Email Address</label>
+                                       <input type="email" name="email" id="email" placeholder="you@company.com" required class="form-info" />
                                     </div>
 
-                                    <div class="w-full md:w-1/2">
-                                       <label for="phone" class="block text-sm mb-2 text-gray-600 dark:text-gray-400">Phone Number</label>
-                                       <input
-                                          type="text"
-                                          name="phone"
-                                          id="phone"
-                                          placeholder="+1 (555) 1234-567"
-                                          required
-                                          class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500"
-                                       />
+                                    <div class="form-text">
+                                       <label for="phone" class="form-label">Phone Number</label>
+                                       <input type="text" name="phone" id="phone" placeholder="+1 (555) 1234-567" required class="form-info" />
                                     </div>
                                  </div>
-                                 <div class="mb-6">
-                                    <label for="message" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Your Message</label>
+                                 <div class="form-bottom">
+                                    <label for="message" class="form-label">Your Message</label>
 
-                                    <textarea
-                                       rows="5"
-                                       name="message"
-                                       id="message"
-                                       placeholder="Your Message"
-                                       class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500"
-                                       required
-                                    ></textarea>
+                                    <textarea rows="5" name="message" id="message" placeholder="Your Message" class="form-message" required></textarea>
                                  </div>
-                                 <div class="mb-6">
-                                    <button type="submit" class="w-full px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none">Send Message</button>
+                                 <div class="form-bottom">
+                                    <button type="submit" class="submit">Send Message</button>
                                  </div>
-                                 <p class="text-base text-center text-gray-400" id="result"></p>
+                                 <p class="form-results" id="result"></p>
                               </form>
                            </div>
                         </div>
