@@ -402,14 +402,26 @@ Contact page
 ===========================*/
 
 .contact-page .content-wrapper {
-  width: 85%;
+  width: ;
 }
 
-.contact-page h2 {
+.form-header {
+  padding: 10px;
+  
+}
+.form-header h4 {
   display: flex;
   justify-content: center;    
-  align-content: center;
-  padding: 60px 0;
+  align-items: center;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.form-header p {
+  display: flex;
+  justify-content: center;    
+  align-items: center;
+  font-size: .875em;
 }
 
 .contact-page article {
