@@ -402,12 +402,18 @@ Contact page
 ===========================*/
 
 .contact-page .content-wrapper {
-  width: ;
+  width: 85%;
+}
+
+.contact-page h2 {
+  display: flex;
+  justify-content: center;    
+  align-items: center;
+  padding: 40px 0;
 }
 
 .form-header {
   padding: 10px;
-  
 }
 .form-header h4 {
   display: flex;
@@ -421,7 +427,7 @@ Contact page
   display: flex;
   justify-content: center;    
   align-items: center;
-  font-size: .875em;
+  font-size: .85em;
 }
 
 .contact-page article {
