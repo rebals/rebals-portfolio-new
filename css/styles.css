@@ -430,10 +430,6 @@ Contact page
   font-size: .85em;
 }
 
-.form-input {
-  
-}
-
 input[type=text], select, textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */ 
@@ -1369,7 +1365,18 @@ section.repo-data {
   }
 
   /**Contact Page**/
-  
+  .contact-page .content-wrapper { 
+    display: flex;
+    flex-direction: row wrap;
+    width: 60%;
+  }
+
+  .contact-page h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
   /*****Repo Gallery*****/
   .repo-list li {
     width: 30%;
