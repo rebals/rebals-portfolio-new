@@ -1367,6 +1367,7 @@ section.repo-data {
   /**Contact Page**/
   .contact-page .content-wrapper { 
     display: flex;
+    justify-content: space-around;
     flex-direction: row wrap;
     width: 60%;
   }
@@ -1376,6 +1377,11 @@ section.repo-data {
     justify-content: center;
     align-items: center;
     width: 100%;
+  }
+
+  .section-two {
+    display: flex;
+    flex-direction: row;
   }
   /*****Repo Gallery*****/
   .repo-list li {
