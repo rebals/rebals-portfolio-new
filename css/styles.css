@@ -1382,17 +1382,20 @@ section.repo-data {
   }
 
   .section-two p {
-    font-size: .85em;
+    font-size: 1.25em;
   }
   
   .contact-info {
     width: 50%;
   }
 
-  .social-media h4{
-    font-size: 1em;
+  .section-two h4{
+    font-size: 1.6em;
   }
 
+  .social-media i {
+    font-size: 3em;
+  }
 
 
   /*****Repo Gallery*****/
