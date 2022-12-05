@@ -1378,25 +1378,29 @@ section.repo-data {
 
   .section-two {
     display: flex;
+    padding: 0;
    
   }
 
-  .section-two p {
-    font-size: 1.25em;
+  .address p {
+    font-size: 1.05em;
   }
   
   .contact-info {
-    width: 50%;
+   
   }
 
   .section-two h4{
-    font-size: 1.6em;
+    font-size: 1.5em;
   }
 
   .social-media i {
-    font-size: 3em;
+    font-size: 2.5em;
   }
 
+  .address {
+    padding: 0;
+  }
 
   /*****Repo Gallery*****/
   .repo-list li {
