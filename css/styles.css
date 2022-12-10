@@ -1389,8 +1389,7 @@ section.repo-data {
   }
   
   .contact-info {
-   width: 56%;
-   height: 110%;
+   width: auto;
    padding: 15px;
   }
 
@@ -1408,7 +1407,8 @@ section.repo-data {
   }
 
   .contact-image {
-    width: 50%;
+    width: 100%;
+    height: auto;
     
   }
 
