@@ -1032,9 +1032,7 @@ section.repo-data {
   }
 
   /**** Contact Page ****/
-  .contact-info {
-    display: flex;
-  }
+
 
   .address {
     width: 50%;
@@ -1366,52 +1364,15 @@ section.repo-data {
 
   /**Contact Page**/
   .contact-page .content-wrapper { 
-    width: 40%;
-  }
-
-  .contact-page h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-
-  .section-two {
-    display: flex;
-    padding: 0;
-   
-  }
-
-  .address p {
-    display: flex;
-    justify-content: center;
-    font-size: .85em;
-  }
-  
-  .contact-info {
-   width: auto;
-   padding: 15px;
-  }
-
-  .section-two h4{
-    font-size: 1em;
-    
-  }
-
-  .social-contact {
-    padding: 0;
-  }
-
-  .social-media i {
-    font-size: 2em;
-  }
-
-  .contact-image {
-    width: 100%;    
+    width: 60%;
   }
 
   .address {
-    padding: 0;
+    text-align: center;
+  }
+
+  .contact-image {
+    visibility: hidden;   
   }
 
   /*****Repo Gallery*****/
